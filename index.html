@@ -18,19 +18,77 @@
    <body>
       <!--==================== HEADER ====================-->
       <header class="header" id="header">
-         
+          <nav class="nav container">
+            <a href="" class="nav__logo">
+               <i class="ri-rockect-2-line"></i> Space
+            </a>
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="#" class="nav__link">Home</a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="#" class="nav__link">Features</a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="#" class="nav__link">Pricing</a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="#" class="nav__link">Contact</a>
+                  </li>
+               </ul>
+               <a href="#" class="nav__button">
+                  Login
+               </a>
+               <!-- Close button -->
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-line"></i>
+               </div>
+            </div>
+            <!-- Toggle Button -->
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-apps-line"></i>
+            </div>
+          </nav>
       </header>
 
       <!--==================== MAIN ====================-->
       <main class="main">
          <!--==================== HOME ====================-->
          <section class="home">
-            
+            <div class="home__container container">
+               <div class="home__content">
+                  <h3 class="home__subtitle">
+                     EXPLORE THE UNIVERSE
+                  </h3>
+                  <h1 class="home__title">
+                     <span>
+                        Start Exploring <br>
+                        All over the Space
+                     </span>
+                     <img src="./assets/img/line.svg" alt="">
+                  </h1>
+                  <p class="home__description">
+                     Start to Explore in the Space, Navigate and discover all the wonders of the universe.
+                  </p>
+                  <a href="#" class="home__button">
+                     Get Started
+                  </a>
+               </div>
+               <div class="home__images">
+                  <img src="./assets/img/points-space.svg" alt="image" class="home__points">
+                  <img src="./assets/img/planet.svg" alt="image" class="home__planet-2">
+                  <img src="./assets/img/planet.svg" alt="image" class="home__planet-1">
+                  <img src="./assets/img/rocket.svg" alt="image" class="home__rocket">
+               </div>
+            </div>
+            <img src="./assets/img/clouds-1.svg" alt="" class="home__cloud-1">
+            <img src="./assets/img/clouds-2.svg" alt="" class="home__cloud-2">
          </section>
       </main>
       
       <!--=============== GSAP ===============-->
-      <script src=""></script>
+      <script src="assets/js/gsap.min.js"></script>
 
       <!--=============== MAIN JS ===============-->
       <script src="assets/js/main.js"></script>
